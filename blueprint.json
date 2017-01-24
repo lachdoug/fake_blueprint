@@ -1,0 +1,137 @@
+{
+  "schema": {
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "origin": "Engines Developer Studio 1.0"
+  },
+  "metadata": {
+    "blueprint": {
+      "version": {
+        "major": "1",
+        "minor": "0",
+        "level": "alpha",
+        "patch": "0"
+      },
+      "timestamp": null
+    },
+    "software": {
+      "display": {
+        "title": "",
+        "label": "",
+        "version": "",
+        "description": "",
+        "url": ""
+      },
+      "license": {
+        "label": "",
+        "url": ""
+      }
+    }
+  },
+  "software": {
+    "base": {
+      "name": "",
+      "framework": "",
+      "memory": {
+        "required": 0,
+        "recommended": 0
+      },
+      "http_protocol": "",
+      "framework_port_override": 0,
+      "deployment_type": "",
+      "web_root_directory": "",
+      "continuous_deployment": null,
+      "first_run_url": "",
+      "installation_report": ""
+    },
+    "scripts": {
+      "start": {
+        "language": "sh",
+        "content": ""
+      },
+      "install": {
+        "language": "sh",
+        "content": ""
+      },
+      "post_install": {
+        "language": "sh",
+        "content": ""
+      },
+      "shutdown": {
+        "language": "sh",
+        "content": ""
+      }
+    },
+    "database_seed": {
+      "language": "text",
+      "content": "",
+      "script": false
+    },
+    "components": {
+      "sources": [
+
+      ],
+      "path": "",
+      "extract": null
+    },
+    "persistent_directories": [
+
+    ],
+    "service_configurations": [
+
+    ],
+    "replacement_strings": [
+
+    ],
+    "persistent_files": [
+
+    ],
+    "installed_packages": [
+
+    ],
+    "system_packages": [
+
+    ],
+    "workers": {
+      "blocking": "",
+      "commands": [
+
+      ]
+    },
+    "rake_tasks": [
+
+    ],
+    "template_files": [
+
+    ],
+    "file_write_permissions": [
+
+    ],
+    "custom_php_inis": [
+
+    ],
+    "apache_htaccess_files": [
+
+    ],
+    "apache_httpd_configurations": [
+
+    ],
+    "required_modules": [
+
+    ],
+    "ports": [
+
+    ],
+    "actionators": [
+
+    ],
+    "external_repositories": [
+
+    ],
+    "environment_variables": [
+
+    ]
+  }
+}
