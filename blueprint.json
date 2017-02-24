@@ -35,11 +35,11 @@
       "name": "hhhhhhh",
       "framework": "openjdk8",
       "memory": {
-        "required": "0",
-        "recommended": "0"
+        "required": 0,
+        "recommended": 0
       },
       "http_protocol": "http_and_https",
-      "framework_port_override": "0",
+      "framework_port_override": 0,
       "deployment_type": "web",
       "web_root_directory": "",
       "continuous_deployment": false,
@@ -80,7 +80,13 @@
 
     ],
     "service_configurations": [
-
+      {
+        "namespace": "EnginesSystem",
+        "type_path": "avahi",
+        "variables": {
+          "hostname": " ddddss"
+        }
+      }
     ],
     "replacement_strings": [
 
