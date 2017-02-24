@@ -9,12 +9,12 @@
   "metadata": {
     "blueprint": {
       "version": {
-        "major": 3,
+        "major": 7,
         "minor": 0,
         "level": "alpha",
         "patch": 0
       },
-      "timestamp": null
+      "timestamp": "2017-02-24 10:07:49 UTC"
     },
     "software": {
       "display": {
@@ -85,6 +85,17 @@
         "type_path": "avahi",
         "variables": {
           "hostname": " ddddssc"
+        }
+      },
+      {
+        "namespace": "EnginesSystem",
+        "type_path": "database/nosql/mongo",
+        "variables": {
+          "db_password": "_Engines_System(random(10))",
+          "db_username": "_Engines_Builder(engine_name)",
+          "database_name": "_Engines_Builder(engine_name)",
+          "database_host": "_Engines_System(mongo_host)",
+          "rails_flavor": "mongodb"
         }
       }
     ],
