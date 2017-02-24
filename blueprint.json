@@ -9,10 +9,10 @@
   "metadata": {
     "blueprint": {
       "version": {
-        "major": "1",
-        "minor": "0",
+        "major": 1,
+        "minor": 0,
         "level": "alpha",
-        "patch": "0"
+        "patch": 0
       },
       "timestamp": null
     },
@@ -32,17 +32,17 @@
   },
   "software": {
     "base": {
-      "name": "",
-      "framework": "",
+      "name": "hhhhhhh",
+      "framework": "openjdk8",
       "memory": {
-        "required": 0,
-        "recommended": 0
+        "required": "0",
+        "recommended": "0"
       },
-      "http_protocol": "",
-      "framework_port_override": 0,
-      "deployment_type": "",
+      "http_protocol": "http_and_https",
+      "framework_port_override": "0",
+      "deployment_type": "web",
       "web_root_directory": "",
-      "continuous_deployment": null,
+      "continuous_deployment": false,
       "first_run_url": "",
       "installation_report": ""
     },
