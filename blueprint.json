@@ -9,12 +9,12 @@
   "metadata": {
     "blueprint": {
       "version": {
-        "major": 14,
+        "major": 15,
         "minor": 0,
         "level": "alpha",
         "patch": 0
       },
-      "timestamp": "2017-02-24 10:20:21 UTC"
+      "timestamp": "2017-02-27 03:30:20 UTC"
     },
     "software": {
       "display": {
@@ -150,7 +150,31 @@
 
     ],
     "environment_variables": [
-
+      {
+        "name": "some_var",
+        "value": "",
+        "ask_at_build_time": false,
+        "build_time_only": false,
+        "immutable": false,
+        "input": {
+          "type": "select",
+          "label": "This is the label",
+          "title": "tootltip title!!!!1",
+          "hint": "hintsie",
+          "placeholder": "type here",
+          "validation": {
+            "required": true,
+            "pattern": "e",
+            "message": "ooops"
+          },
+          "collection": {
+            "include_blank": true,
+            "items": {
+              "eee": "eeeeee"
+            }
+          }
+        }
+      }
     ]
   }
 }
