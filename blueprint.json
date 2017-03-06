@@ -82,17 +82,17 @@
     ],
     "service_configurations": [
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "avahi",
         "variables": {
           "hostname": " ddddssc"
         }
       },
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "database/nosql/mongo",
         "variables": {
-          "db_password": "_Engines_System(random(10))",
+          "db_password": "",
           "db_username": "_Engines_Builder(engine_name)",
           "database_name": "_Engines_Builder(engine_name)",
           "database_host": "_Engines_System(mongo_host)",
@@ -100,23 +100,23 @@
         }
       },
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "firstrun",
         "variables": {
         }
       },
       {
-        "namespace": "LachlanServices",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "auth",
         "variables": {
           "service": "",
           "command": "",
           "pubkey": "_Engines_System(pubkey)",
-          "engine": "_Builder(engine_name)"
+          "engine": ""
         }
       },
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/service/nfs",
         "variables": {
           "username": null,
@@ -128,21 +128,85 @@
       }
     ],
     "environment_variables": [
-
+      {
+        "name": "sss",
+        "value": "sss",
+        "mandatory": false,
+        "immutable": false,
+        "ask_at_build_time": false,
+        "build_time_only": false,
+        "input": {
+          "type": "string",
+          "label": "",
+          "title": "",
+          "comment": "",
+          "hint": "",
+          "placeholder": "",
+          "validation": {
+            "pattern": "",
+            "message": ""
+          },
+          "collection": {
+            "include_blank": false,
+            "items": {
+            }
+          }
+        }
+      },
+      {
+        "name": "sss",
+        "value": "",
+        "mandatory": false,
+        "immutable": false,
+        "ask_at_build_time": false,
+        "build_time_only": false,
+        "input": {
+          "type": "string",
+          "label": "",
+          "title": "",
+          "comment": "",
+          "hint": "",
+          "placeholder": "",
+          "validation": {
+            "pattern": "",
+            "message": ""
+          },
+          "collection": {
+            "include_blank": true,
+            "items": {
+            }
+          }
+        }
+      }
     ],
     "template_files": [
-
+      {
+        "path": "aaa",
+        "language": "lua",
+        "content": "aaa"
+      }
     ],
     "replacement_strings": [
-
+      {
+        "string": "qqqq",
+        "source_file": "qqqq",
+        "destination_file": "qqqq"
+      }
     ],
     "database_seed": {
-      "language": "text",
+      "language": "nosql",
       "content": "",
       "script": false
     },
     "file_write_permissions": [
-
+      {
+        "path": "aaaa",
+        "recursive": true
+      },
+      {
+        "path": "aaa",
+        "recursive": false
+      }
     ],
     "persistent_directories": [
       {
@@ -156,8 +220,8 @@
       "sources": [
 
       ],
-      "path": "",
-      "extract": null
+      "path": "aaaa",
+      "extract": false
     },
     "workers": {
       "blocking": "",
@@ -172,7 +236,10 @@
 
     ],
     "apache_htaccess_files": [
-
+      {
+        "directory": "ssssssss",
+        "content": "aaaaaaaaaaaa"
+      }
     ],
     "apache_httpd_configurations": [
 
@@ -187,8 +254,9 @@
         "enable_logging": false,
         "variables": [
           {
-            "name": "sssvarvar",
+            "name": "sssvarvarxs",
             "value": "rrrrrrrr",
+            "mandatory": true,
             "input": {
               "type": "boolean",
               "label": "ssstrtyrty",
@@ -197,7 +265,6 @@
               "hint": "ssssss",
               "placeholder": "rtrtyrty",
               "validation": {
-                "required": false,
                 "pattern": "",
                 "message": ""
               },
@@ -225,8 +292,9 @@
         "enable_logging": false,
         "variables": [
           {
-            "name": "wwwwwwwwwwww",
+            "name": "www",
             "value": "",
+            "mandatory": true,
             "input": {
               "type": "string",
               "label": "",
@@ -235,7 +303,28 @@
               "hint": "",
               "placeholder": "",
               "validation": {
-                "required": false,
+                "pattern": "a",
+                "message": "hooooooooooooooooo"
+              },
+              "collection": {
+                "include_blank": true,
+                "items": {
+                }
+              }
+            }
+          },
+          {
+            "name": "sswwwwwwwwwwwwwwttttttttttttttttttt",
+            "value": "",
+            "mandatory": false,
+            "input": {
+              "type": "string",
+              "label": "",
+              "title": "",
+              "comment": "",
+              "hint": "",
+              "placeholder": "",
+              "validation": {
                 "pattern": "",
                 "message": ""
               },
@@ -255,26 +344,32 @@
     ],
     "schedules": [
       {
-        "label": "wwwwwwwwww",
-        "timespec": "wwwwwwwwww",
+        "label": "ssssssss",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
         "instruction": "action",
         "actionator": {
-          "name": "qqqqqqq",
+          "name": "sss",
           "params": {
-            "wwwwwwwwwwww": ""
+            "sssvarvarxs": true
           }
         }
       },
       {
-        "label": "update cal",
-        "timespec": "rdfgedge",
-        "instruction": "action",
-        "actionator": {
-          "name": "qqqqqqq",
-          "params": {
-            "wwwwwwwwwwww": ""
-          }
-        }
+        "label": "gg",
+        "timespec": {
+          "minute": "",
+          "hour": "2",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "unpause"
       }
     ]
   }
