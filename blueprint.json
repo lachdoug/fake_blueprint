@@ -10,12 +10,12 @@
   "metadata": {
     "blueprint": {
       "version": {
-        "major": 24,
+        "major": 25,
         "minor": 0,
         "level": "alpha",
         "patch": 0
       },
-      "timestamp": "2017-03-13 03:40:21 UTC"
+      "timestamp": "2017-03-13 03:42:09 UTC"
     },
     "software": {
       "display": {
