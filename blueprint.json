@@ -10,7 +10,7 @@
   "metadata": {
     "blueprint": {
       "version": {
-        "major": 15,
+        "major": 20,
         "minor": 0,
         "level": "alpha",
         "patch": 0
@@ -22,7 +22,7 @@
         "title": "",
         "label": "",
         "version": "",
-        "description": "",
+        "description": "asdasdasdads\r\n===\r\nasasd\r\nasd\r\nasd\r\nasd\r\nasd\r\n\r\n",
         "url": ""
       },
       "license": {
@@ -44,6 +44,7 @@
       "deployment_type": "web",
       "web_root_directory": "",
       "continuous_deployment": false,
+      "install_form_comment": "",
       "first_run_url": "",
       "installation_report": "1. * # aaaaaaaaaaa[![](http://)](http://)\r\nasasdasd\r\nasd\r\n------\r\n"
     },
@@ -52,7 +53,7 @@
     ],
     "scripts": {
       "start": {
-        "language": "sh",
+        "language": "javascript",
         "content": ""
       },
       "install": {
@@ -83,47 +84,30 @@
     "service_configurations": [
       {
         "publisher_namespace": "EnginesSystem",
-        "type_path": "avahi",
-        "variables": {
-          "hostname": " ddddssc"
-        }
-      },
-      {
-        "publisher_namespace": "EnginesSystem",
         "type_path": "database/nosql/mongo",
         "variables": {
-          "db_password": "",
+          "db_password": "_Engines_System(random(10))",
           "db_username": "_Engines_Builder(engine_name)",
           "database_name": "_Engines_Builder(engine_name)",
           "database_host": "_Engines_System(mongo_host)",
-          "rails_flavor": "_Engines_System()"
-        }
-      },
-      {
-        "publisher_namespace": "EnginesSystem",
-        "type_path": "firstrun",
-        "variables": {
+          "rails_flavor": "mongodb"
         }
       },
       {
         "publisher_namespace": "EnginesSystem",
         "type_path": "auth",
         "variables": {
-          "service": "",
+          "service": "_Engines_System(d)",
           "command": "",
           "pubkey": "_Engines_System(pubkey)",
-          "engine": ""
+          "engine": "_Builder(engine_name)"
         }
       },
       {
         "publisher_namespace": "EnginesSystem",
-        "type_path": "filesystem/service/nfs",
+        "type_path": "avahi",
         "variables": {
-          "username": null,
-          "password": null,
-          "host": null,
-          "button": null,
-          "volume": " "
+          "hostname": " "
         }
       }
     ],
@@ -177,6 +161,56 @@
             }
           }
         }
+      },
+      {
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "value": "",
+        "mandatory": true,
+        "immutable": false,
+        "ask_at_build_time": false,
+        "build_time_only": false,
+        "input": {
+          "type": "string",
+          "label": "",
+          "title": "",
+          "comment": "",
+          "hint": "",
+          "placeholder": "",
+          "validation": {
+            "pattern": "",
+            "message": ""
+          },
+          "collection": {
+            "include_blank": false,
+            "items": {
+            }
+          }
+        }
+      },
+      {
+        "name": "ddd",
+        "value": "dddd",
+        "mandatory": false,
+        "immutable": false,
+        "ask_at_build_time": false,
+        "build_time_only": false,
+        "input": {
+          "type": "string",
+          "label": "dddd",
+          "title": "",
+          "comment": "",
+          "hint": "",
+          "placeholder": "",
+          "validation": {
+            "pattern": "",
+            "message": ""
+          },
+          "collection": {
+            "include_blank": false,
+            "items": {
+            }
+          }
+        }
       }
     ],
     "template_files": [
@@ -191,6 +225,11 @@
         "string": "qqqq",
         "source_file": "qqqq",
         "destination_file": "qqqq"
+      },
+      {
+        "string": "aaa",
+        "source_file": "aaa",
+        "destination_file": "aaa"
       }
     ],
     "database_seed": {
@@ -214,11 +253,20 @@
       }
     ],
     "persistent_files": [
-
+      {
+        "path": "ddd"
+      }
     ],
     "components": {
       "sources": [
-
+        {
+          "label": "aaa",
+          "url": "http://1.1.1.1",
+          "install_script": {
+            "language": "javascript",
+            "content": ""
+          }
+        }
       ],
       "path": "aaaa",
       "extract": false
