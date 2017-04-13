@@ -489,12 +489,12 @@
         "variables": [
           {
             "name": "aaa",
-            "value": "",
+            "value": "qq",
             "mandatory": false,
             "input": {
               "type": "string",
               "label": "",
-              "title": "",
+              "title": "aa",
               "comment": "",
               "hint": "",
               "placeholder": "",
@@ -506,8 +506,8 @@
                 "include_blank": false,
                 "items": {
                   "aaaaaaa": "aaaaaaaaaaaaaaaaa",
-                  "aaaaaa": "aaaaaaaaaaaaaaaaaaaaaa",
-                  "11111": "111111111"
+                  "11111": "111111111",
+                  "aaaaaa": "aaaaaaaaaaaaaaaaaaaaaa"
                 }
               }
             }
@@ -534,6 +534,28 @@
                 }
               }
             }
+          },
+          {
+            "name": "qqqqqqqqqqqqqqqq",
+            "value": "",
+            "mandatory": false,
+            "input": {
+              "type": "string",
+              "label": "",
+              "title": "",
+              "comment": "",
+              "hint": "",
+              "placeholder": "",
+              "validation": {
+                "pattern": "",
+                "message": ""
+              },
+              "collection": {
+                "include_blank": false,
+                "items": {
+                }
+              }
+            }
           }
         ],
         "script": {
@@ -542,7 +564,7 @@
         }
       },
       {
-        "name": "aaa",
+        "name": "aaasss",
         "label": "",
         "description": "asfasdasd\r\n====",
         "return_type": "none",
@@ -558,7 +580,204 @@
       }
     ],
     "schedules": [
-
+      {
+        "label": "aaaaaaaaaa",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "_Engines_System(1)",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "aqqqqqqqqqqqqqqq1225",
+        "timespec": {
+          "minute": "0",
+          "hour": "1",
+          "day_of_month": "1",
+          "month": "",
+          "day_of_week": "0"
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "aaaaaaa",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "aaa",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "start"
+      },
+      {
+        "label": "aaaaaaa",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "",
+          "params": {
+          }
+        }
+      },
+      {
+        "label": "aaaaaaa",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "s",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "aaaaa",
+        "timespec": {
+          "minute": "1",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "qqqqqq",
+        "timespec": {
+          "minute": "1",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "fsgfsgh",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq2222222",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      },
+      {
+        "label": "ggg",
+        "timespec": {
+          "minute": "",
+          "hour": "",
+          "day_of_month": "",
+          "month": "",
+          "day_of_week": ""
+        },
+        "instruction": "action",
+        "actionator": {
+          "name": "aaa",
+          "params": {
+            "aaa": "qq",
+            "qqqqqq": "",
+            "qqqqqqqqqqqqqqqq": ""
+          }
+        }
+      }
     ]
   }
 }
